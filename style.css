@@ -140,7 +140,7 @@ header picture img {
 header .nav_toggle {
     position: absolute;
     z-index: 10;
-    right: 1.5rem;
+    right: 1.3rem;
     border: 0;
     cursor: pointer;
     padding: 0.5rem;
@@ -157,11 +157,9 @@ header .nav_toggle {
 
 header .primary_navigation {
     display: none;
-    transform: translateX(100%);
 
     &[data-visible="true"] {
         display: block;
-        transform: translateX(0%);
         position: absolute;
         inset: 0;
         width: 80%;
@@ -333,7 +331,6 @@ header .primary_navigation .nav_list li {
 
     header .primary_navigation {
         display: block;
-        transform: translateX(0%);
     }
 
     header .primary_navigation .nav_list {
